@@ -6,7 +6,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-API_KEY = "AIzaSyBUZbmF_uhvpPefbqprMGSvjbPCL46cCu0"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 @app.route("/")
